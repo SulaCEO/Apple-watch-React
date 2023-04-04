@@ -1,0 +1,102 @@
+.container-bs{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 164, 255, 0.496);
+    cursor: pointer;
+    .basket{
+        cursor: default;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: white;
+        padding: 30px 20px;
+        b{
+            font-weight: 600;
+        }
+        &__title{
+            font-size: 23px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        &__products{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            max-height: 490px;
+            overflow: scroll;
+            .empty{
+                font-size: 25px;
+                font-weight: 600;
+                margin: 20px 0;
+                width: 300px;
+                text-align: center;
+            }
+            .product{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 300px;
+                border: 1px solid rgba(185, 185, 185, 0.515);
+                border-radius: 15px;
+                padding: 15px 0;
+                &__left{
+                    img{
+                        width: 70px;
+                    }
+                }
+                &__center{
+                    h4{
+                        font-size: 14px;
+                    }
+                    b{
+                        font-size: 14px;
+                        line-height: 1.5;
+                    }
+                }
+                &__right{
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+            }
+        }
+        &__price{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            div{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        &__order{
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            div{
+                row-gap: 10px;
+                display: flex;
+                flex-direction: column;
+                input{
+                    height: 25px;
+                    padding: 0 10px;
+                }
+            }
+            &-btn{
+                margin-top: 20px;
+                color: white;
+                font-weight: 600;
+                border-radius: 20px;
+                background-color: rgb(135, 203, 32);
+                border: none;
+                padding: 10px 0;
+                cursor: pointer;
+            }
+        }
+    }
+}

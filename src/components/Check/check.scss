@@ -1,0 +1,85 @@
+.check{
+    margin: 19px 0;
+    border-radius: 8px;
+    padding: 50px 60px 72px 60px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        h2{
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        a{
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            color: #1890FF;
+            margin-left: 20px;
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+    }
+    &__products{
+        display: flex;
+        flex-wrap: wrap;
+        width: 918px;
+        margin: 0 auto;
+        margin-top: 40px;
+        column-gap: 81px;
+        .product{
+            display: flex;
+            flex-direction: column;
+            height: 279px;
+            &__img{
+                width: 168px;
+                height: 168px;
+            }
+            &__name{
+                font-family: 'Inter', sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                margin: 32px 0 4px 0;
+            }
+            &__price{
+                font-family: 'Inter', sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                margin-bottom: 12px;
+            }
+            &__btns{
+                display: flex;
+                column-gap: 15px;
+                button{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 500;
+                    font-size: 10px;
+                    border: none;
+                    border-radius: 4px;
+                    width: 56px;
+                    height: 24px;
+                    cursor: pointer;
+                }
+                .buy-btn{
+                    background-color: #1890FF;
+                    color: white;
+                    &:disabled{
+                        background-color: gray;
+                    }
+                }
+                .delete-btn{
+                    background-color: rgb(255, 60, 60);
+                    color: white;
+                }
+            }
+        }
+    }
+    &__more{
+        margin: 20px 0 0 142px;
+    }
+}

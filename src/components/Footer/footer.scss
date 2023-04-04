@@ -1,0 +1,50 @@
+.footer{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    padding: 30px 0 36px 67px;
+    display: flex;
+    column-gap: 50px;
+    .follow{
+        width: 160px;
+        display: flex;
+        flex-direction: column;
+        span{
+            margin-bottom: 21px;
+        }
+        &__links{
+            display: flex;
+            column-gap: 28px;
+        }
+    }
+    .contact{
+        width: 117px;
+        display: flex;
+        flex-direction: column;
+        span{
+            margin-bottom: 16px;
+        }
+        &__number{
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 11px;
+        }
+        &__email{
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+            color: #1890FF;
+        }
+    }
+    &__title{
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    &__text{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        margin-top: 8px;
+    }
+}

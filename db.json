@@ -1,0 +1,65 @@
+{
+  "header": [
+    "./img/logo.svg",
+    "./img/basket.jpeg",
+    "./img/Iphone.jpg"
+  ],
+  "check": [
+    {
+      "name": "AirPods",
+      "price": 199,
+      "img": "./img/Airpods.jpg",
+      "id": 1
+    },
+    {
+      "name": "Iphone XR",
+      "price": 799,
+      "img": "./img/Iphone.jpg",
+      "id": 2
+    },
+    {
+      "name": "Apple TV 4K",
+      "price": 179,
+      "img": "./img/Appletv.jpg",
+      "id": 3
+    },
+    {
+      "name": "Apple Card",
+      "price": 0,
+      "img": "./img/Applecard.jpg",
+      "id": 4
+    },
+    {
+      "name": "MacBook M1",
+      "price": 1000,
+      "img": "https://www.mechta.kz/images/product/41226/30000002704_1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Iphone 14 pro",
+      "price": 2000,
+      "img": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F265326_1v.jpg&w=3840&q=85",
+      "id": 6
+    }
+  ],
+  "footer": [
+    "./img/facebook.svg",
+    "./img/twitter.svg",
+    "./img/instagram.svg"
+  ],
+  "order": [
+    {
+      "name": "sas",
+      "tel": "sss",
+      "order": [
+        {
+          "name": "Iphone 14 pro",
+          "price": 2000,
+          "img": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F265326_1v.jpg&w=3840&q=85",
+          "id": 6
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

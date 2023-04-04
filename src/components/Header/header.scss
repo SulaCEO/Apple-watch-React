@@ -1,0 +1,50 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    &__logo{
+        width: 246px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px 0px 0px 8px;
+        height: 60px;
+        svg{
+            height: 25.3px;
+        }
+    }
+    &__list{
+        height: 59.5px;
+        width: 1075px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #444444;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 8px 8px 0px;
+        a{
+            color: white;
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            position: relative;
+            img{
+                width: 30px;
+            }
+            .basket-add{
+                position: absolute;
+                width: 13px;
+                height: 13px;
+                background-color: red;
+                border-radius: 50%;
+                top: -10px;
+                right: -5px;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+        li:nth-child(1n+2){
+            margin-left: 55px;
+        }
+    }
+}

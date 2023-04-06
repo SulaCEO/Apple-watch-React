@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Apple-watch-React/static/css/main.f85aed82.css",
+    "main.js": "/Apple-watch-React/static/js/main.cd62d87d.js",
+    "index.html": "/Apple-watch-React/index.html",
+    "main.f85aed82.css.map": "/Apple-watch-React/static/css/main.f85aed82.css.map",
+    "main.cd62d87d.js.map": "/Apple-watch-React/static/js/main.cd62d87d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f85aed82.css",
+    "static/js/main.cd62d87d.js"
+  ]
+}

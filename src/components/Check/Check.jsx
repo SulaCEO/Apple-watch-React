@@ -14,7 +14,7 @@ const Check = ({isDark, setIsDark, basket, setBasket})=>{
     const [sort, setSort] = useState('');
 
     const getProducts = ()=>{
-        axios('http://localhost:3000/check')
+        axios('http://localhost:3001/check')
             .then(({data})=>setProducts(data.reverse()))
     }
 
@@ -23,7 +23,7 @@ const Check = ({isDark, setIsDark, basket, setBasket})=>{
     }, [])
 
     const deleteProducts = (id)=>{
-        axios.delete(`http://localhost:3000/check/${id}`)
+        axios.delete(`http://localhost:3001/check/${id}`)
             .then(()=>{
                 getProducts();
                 

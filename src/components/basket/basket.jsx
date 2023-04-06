@@ -8,7 +8,7 @@ const Basket = ({isBasketActive, setIsBasketActive, basket, setBasket})=>{
     const [tel, setTel] = useState('');
 
     const submitOrder = ()=>{
-        axios.post('http://localhost:3000/order', {
+        axios.post('http://localhost:3001/order', {
             name,
             tel,
             "order": basket

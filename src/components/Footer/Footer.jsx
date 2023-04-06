@@ -5,7 +5,7 @@ const Footer = ({isDark})=>{
     const [links, setLinks] = useState([]);
 
     useEffect(()=>{
-        axios('http://localhost:3000/footer')
+        axios('http://localhost:3001/footer')
             .then(({data})=>setLinks(data))
     }, [])
 

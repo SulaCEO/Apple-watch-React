@@ -6,7 +6,7 @@ const PopUp = ({openPop, setOpenPop, getProducts})=>{
     const submitProduct = (e)=>{
         e.preventDefault();
 
-        axios.post('http://localhost:3000/check', {
+        axios.post('http://localhost:3001/check', {
             "name": e.target[1].value,
             "price": e.target[2].value > 0 ? Number(e.target[2].value) : e.target[2].value,
             "img": e.target[3].value

@@ -48,18 +48,5 @@
     "./img/instagram.svg"
   ],
   "order": [
-    {
-      "name": "sas",
-      "tel": "sss",
-      "order": [
-        {
-          "name": "Iphone 14 pro",
-          "price": 2000,
-          "img": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F265326_1v.jpg&w=3840&q=85",
-          "id": 6
-        }
-      ],
-      "id": 1
-    }
   ]
 }

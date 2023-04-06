@@ -7,7 +7,7 @@ const Header = ({isDark, basket, setBasket})=>{
     const [isBasketActive, setIsBasketActive] = useState(false);
 
     useEffect(()=>{
-        axios('http://localhost:3000/header')
+        axios('http://localhost:3001/header')
             .then(({data})=>setImg(data))
     }, [])
 

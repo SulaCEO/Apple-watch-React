@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# My project
 
 Проект был создан используя JSON-server, вместо Redux
